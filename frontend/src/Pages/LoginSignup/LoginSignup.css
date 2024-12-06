@@ -1,0 +1,145 @@
+.role-selection {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.role-selection label {
+  font-size: 14px;
+  cursor: pointer;
+}
+.login-signup {
+  width: 100%;
+  min-height: 100vh;
+  background: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.LoginSignupContainer {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  height: auto;
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+}
+
+
+.LoginSignupContainer:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.LoginSignupContainer h1 {
+  margin: 0 0 20px 0;
+  font-size: 26px;
+  color: #333;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.LoginSignupContainer input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.LoginSignupContainer input[type="file"]:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.LoginSignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.LoginSignup-fields input, .LoginSignup-fields select {
+  height: 45px;
+  width: 100%;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  outline: none;
+  color: #333;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+.LoginSignup-fields input:focus, .LoginSignup-fields select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.LoginSignupContainer button {
+  width: 100%;
+  max-width: 220px;
+  height: 50px;
+  color: white;
+  background: #1445ad;
+  margin-top: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.LoginSignupContainer button:hover {
+  background: #000c79;
+  transform: scale(1.03);
+}
+
+.LoginSignup-login {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 14px;
+  text-align: center;
+}
+
+.LoginSignup-login span {
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.loginSignup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  font-weight: 400;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: space-evenly;   
+}
+
+.role-selection label input {
+  transform: scale(0.5); 
+  margin-right: 150px;
+}

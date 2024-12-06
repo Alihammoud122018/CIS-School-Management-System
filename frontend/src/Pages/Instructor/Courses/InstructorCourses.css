@@ -1,0 +1,128 @@
+/* General Page Styles */
+.instructor-courses-page {
+    padding: 20px 35px 10px 282px;
+    background-color: #ecf0f1;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .instructor-courses-header {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructor-courses-header h1 {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+  
+  .instructor-courses-header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #bdc3c7;
+  }
+  
+  /* Sections Container */
+  .sections-container {
+    margin-top: 20px;
+  }
+  
+  /* Section Block */
+  .section-block {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 5px; /* Add padding around the entire section block */
+  }
+  
+  /* Section Header */
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; /* Added padding to create space inside the header */
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px; /* Consistent rounding for the block */
+  }
+  
+  .section-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .toggle-arrow {
+    font-size: 1.5rem;
+  }
+  
+  /* Section Content with Smooth Expand/Collapse */
+  .section-content {
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden;
+    opacity: 0; /* Fully transparent when collapsed */
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+    padding: 15px; /* Add padding for content spacing */
+    background-color: #f9f9f9;
+  }
+  
+  .section-block.expanded .section-content {
+    max-height: 500px; /* Large enough to fit content; adjust as needed */
+    opacity: 1; /* Fully visible when expanded */
+  }
+  
+  /* Assessments List */
+  .assessments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .assessment-button {
+    padding: 10px 15px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .assessment-button.active {
+    background-color: #16a085;
+  }
+  
+  .assessment-button:hover {
+    background-color: #138d75;
+  }
+  
+  /* Students List */
+  .students-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .students-list li {
+    margin: 10px 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px; /* Add space around each student entry */
+    border-radius: 5px; /* Rounding for a cleaner look */
+  }
+  
+  .green-grade {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .red-grade {
+    color: red;
+    font-weight: bold;
+  }

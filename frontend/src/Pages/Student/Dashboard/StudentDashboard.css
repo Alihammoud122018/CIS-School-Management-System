@@ -1,0 +1,137 @@
+.dashboard {
+  padding: 20px 35px 20px 282px; 
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+  /* Welcome Section */
+  .welcome-section {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-section h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .welcome-section p {
+    margin: 10px 0 0;
+    font-size: 1.1rem;
+    color: #bdc3c7;
+  }
+  
+  .content-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /*Performance- Placeholder fror backend  */
+  
+  .deadlines, .performance, .calendar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+  }
+  
+  .deadlines h2, .performance h2, .calendar h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .deadlines ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .deadlines li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  
+  .task-title {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .task-date {
+    color: #3498db;
+  }
+  
+  .performance-chart {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+
+  /* Calender- Waiting for backend*/
+.calendar {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calendar h2 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.week-days {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.day {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.day-box {
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.day-box.task {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.day-box.exam {
+  background-color: #f39c12;
+  color: white;
+}
+
+.day-box.event {
+  background-color: #3498db;
+  color: white;
+}
+
+  
